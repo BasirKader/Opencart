@@ -23,7 +23,7 @@ public class UserRegistrationSteps extends CommonMethods {
     public void user_enters_and(String string, String string2, String string3, String string4, String string5, String string6) {
         sendText(userRegistration.firstNameBox,"hello");
         sendText(userRegistration.lastNameBox,"hello");
-        sendText(userRegistration.emailBox,"hello@aol.com");
+        sendText(userRegistration.emailBox,"hello@gmail.com");
         sendText(userRegistration.phoneBox,"hello");
         sendText(userRegistration.passwordBox,"hello");
         sendText(userRegistration.passwordConfirmBox,"hello");
