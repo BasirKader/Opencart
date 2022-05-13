@@ -11,7 +11,7 @@ Feature:
   @buy
   Scenario: User purchases item
     When User clicks on View cart
-    And User verifies quantity of the item
+    And User changes quantity to two
     And User clicks on the Checkout button
     Then User get Not In Stock message
 
