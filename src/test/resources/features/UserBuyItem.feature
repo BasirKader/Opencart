@@ -13,5 +13,5 @@ Feature:
     When User clicks on View cart
     And User verifies quantity of the item
     And User clicks on the Checkout button
-    Then User get not in stock message
+    Then User get Not In Stock message
 
