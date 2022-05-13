@@ -8,7 +8,7 @@ Feature: New user registration
 
     When user clicks on My Account
     And user clicks on Register
-    And user enters "hello" "hello" "hello" "hello" "hello" and "hello"
+    And user enters "hello" "hello" "hello@gmail.com" "hello" "hello" and "hello"
     And user selects on subscribe button
     And user clicks on checkbox
     Then user clicks on continue tab
