@@ -4,8 +4,8 @@ Feature: User Login
     @login
   Scenario: //Login to the OpenCart
     User login with valid credential
-    When user clicks on My Account
-    And user on clicks to Login
-    And user enters valid credentials
-    And user clicks on login button
-    Then user successfully logged in
+    When User clicks on My Account
+    And User on clicks to Login
+    And User enters valid credentials
+    And User clicks on login button
+    Then User successfully logged in

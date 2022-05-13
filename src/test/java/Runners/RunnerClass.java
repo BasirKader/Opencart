@@ -10,9 +10,9 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "steps",
-        dryRun = true,
+        dryRun = false,
         monochrome = true,
-        tags = "@login"
+        tags = "@add"
 
 
 
