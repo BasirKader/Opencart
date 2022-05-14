@@ -19,7 +19,6 @@ public class UserBuyItemStep  extends CommonMethods {
     }
     @Then("User get Not In Stock message")
     public void user_get_not_in_stock_message() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+
     }
 }
